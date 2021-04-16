@@ -1,0 +1,46 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [270, 270, 270, 273, 273, 273, 273, 273], "alleles_median": 273, "alleles_mode": 273, "locus_ids": ["GCF-004123995-protein140_1", "GCF-004123995-protein140_S_GCF-002163545.1-ASM216354v1-genomic.fna_23/03/2021T15:07:45_2", "GCF-004123995-protein140_S_GCF-900983485.1-19944-6-141-genomic.fna_23/03/2021T15:08:35_3", "GCF-004123995-protein140_S_GCF-900985765.1-8898-3-48-genomic.fna_23/03/2021T15:08:56_4", "GCF-004123995-protein140_S_GCF-900989875.1-8898-1-42-genomic.fna_23/03/2021T15:09:31_5", "GCF-004123995-protein140_S_SAMN09849882.contigs.fa_24/03/2021T13:10:48_6", "GCF-004123995-protein140_S_SAMN07154080.contigs.fa_25/03/2021T03:04:42_7", "GCF-004123995-protein140_S_SAMN07153580.contigs.fa_25/03/2021T10:07:41_8"], "nr_alleles": 8, "size_range": "270-273"}, "locus_name": "GCF-004123995-protein140"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 8, "Gene": "GCF-004123995-protein140.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 8, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTNSVPNPTQNQKSGPLDWIWNTIKGWWEQVKSWFS"}, {"name": "2", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNLNVFLCSDDGKPTIQTDSVPNPTQNQENGPFDWIWNTIKSWWEQVKSWF-"}, {"name": "3", "sequence": "MKNKLFLVALATVTVLGPSLANPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTNSVPNPTQNQKSGPLDWIWNTIKGWWEQVKSWFS"}, {"name": "4", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTDAVPNPTQNQKSGPLDWIWNTIKSWWGQVKNWFS"}, {"name": "5", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNLNVFLCSDDGKPTIPTDSVPNPTQNQENGPFDWIWNTIKSWWEQVKSWF-"}, {"name": "6", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTNSVPNPTQNQKSGPLDWIWNTIKSWWEQVKSWFS"}, {"name": "7", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTNSVPNPTQNQKSGPLDWIWNTIKGWWEQVKSWFS"}, {"name": "8", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNLNVFLCSDDGKPTIQTDSVPNPTQNQQNGPFDWIWNTIKSWWEQVKSWF-"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((((\n1_1\n:0.00000,\n6_6\n:0.00000):0.00000,\n7_7\n:0.00000):0.06411,\n3_3\n:0.06411):0.01389,\n4_4\n:0.07800):0.10529,((\n2_2\n:0.00000,\n8_8\n:0.00000):0.06487,\n5_5\n:0.06487):0.11842);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTNSVP
+NPTQNQKSGPLDWIWNTIKGWWEQVKSWFS
+>2
+MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNLNVFLCSDDGKPTIQTDSVP
+NPTQNQENGPFDWIWNTIKSWWEQVKSWF-
+>3
+MKNKLFLVALATVTVLGPSLANPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTNSVP
+NPTQNQKSGPLDWIWNTIKGWWEQVKSWFS
+>4
+MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTDAVP
+NPTQNQKSGPLDWIWNTIKSWWGQVKNWFS
+>5
+MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNLNVFLCSDDGKPTIPTDSVP
+NPTQNQENGPFDWIWNTIKSWWEQVKSWF-
+>6
+MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTNSVP
+NPTQNQKSGPLDWIWNTIKSWWEQVKSWFS
+>7
+MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNPNVFLCSDDGKPTIQTNSVP
+NPTQNQKSGPLDWIWNTIKGWWEQVKSWFS
+>8
+MKNKLFLVALATVTVLGPSLATPHHQTVHAAERCTHVSDNLNVFLCSDDGKPTIQTDSVP
+NPTQNQQNGPFDWIWNTIKSWWEQVKSWF-
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

@@ -1,0 +1,55 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201], "alleles_median": 201, "alleles_mode": 201, "locus_ids": ["GCF-000007285-protein1101_1", "GCF-000007285-protein1101_S_GCF-000011765.3-ASM1176v2-genomic.fna_23/03/2021T13:43:31_2", "GCF-000007285-protein1101_S_GCF-000648775.1-Draft-SP2-LAU-Genome-genomic.fna_23/03/2021T13:43:45_3", "GCF-000007285-protein1101_S_GCF-000756485.1-ASM75648v1-genomic.fna_23/03/2021T13:43:45_4", "GCF-000007285-protein1101_S_GCF-900982815.1-11791-7-80-genomic.fna_23/03/2021T13:44:24_5", "GCF-000007285-protein1101_S_SAMEA103905741.contigs.fa_24/03/2021T11:56:36_6", "GCF-000007285-protein1101_S_SAMEA2225668.contigs.fa_24/03/2021T11:56:54_7", "GCF-000007285-protein1101_S_SAMEA4550412.contigs.fa_25/03/2021T01:51:29_8", "GCF-000007285-protein1101_S_SAMEA2590754.contigs.fa_25/03/2021T14:17:25_9", "GCF-000007285-protein1101_S_SAMN08693103.contigs.fa_26/03/2021T10:28:33_10", "GCF-000007285-protein1101_S_SAMEA2590874.contigs.fa_26/03/2021T18:19:26_11"], "nr_alleles": 11, "size_range": "201-201"}, "locus_name": "GCF-000007285-protein1101"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 11, "Gene": "GCF-000007285-protein1101.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 11, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGYFFKHNV"}, {"name": "2", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGYFFKHNV"}, {"name": "3", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGYFFKHNV"}, {"name": "4", "sequence": "MTRFAIQKLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALEVPIGYFFKQNV"}, {"name": "5", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGYFFKHNV"}, {"name": "6", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGYFFKHNV"}, {"name": "7", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAAALEVPIGYFFKQNV"}, {"name": "8", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGYFFKHNI"}, {"name": "9", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALEVPIGYFFKHNV"}, {"name": "10", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGYFFKHNV"}, {"name": "11", "sequence": "MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGYFFKHNI"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((((((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n3_3\n:0.00000):0.00000,\n5_5\n:0.00000):0.00000,\n6_6\n:0.00000):0.00000,\n8_8\n:0.00000):0.00000,\n9_9\n:0.00000):0.00000,\n10_10\n:0.00000):0.00000,\n11_11\n:0.00000):0.04457,\n4_4\n:0.04457):0.04680,\n7_7\n:0.09137);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGY
+FFKHNV
+>2
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGY
+FFKHNV
+>3
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGY
+FFKHNV
+>4
+MTRFAIQKLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALEVPIGY
+FFKQNV
+>5
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGY
+FFKHNV
+>6
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGY
+FFKHNV
+>7
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAAALEVPIGY
+FFKQNV
+>8
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGY
+FFKHNI
+>9
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALEVPIGY
+FFKHNV
+>10
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGY
+FFKHNV
+>11
+MTRFAIQRLREEKKMSQEELANKSGVSRTTISLIETDKSTTVKLSTLQKLAVALDVPIGY
+FFKHNI
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

@@ -1,0 +1,55 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201], "alleles_median": 201, "alleles_mode": 201, "locus_ids": ["GCF-000006785-protein140_1", "GCF-000006785-protein140_S_GCF-002115485.1-ASM211548v1-genomic.fna_23/03/2021T13:07:52_2", "GCF-000006785-protein140_S_GCF-014192005.1-ASM1419200v1-genomic.fna_23/03/2021T13:08:28_3", "GCF-000006785-protein140_S_GCF-900460005.1-42197-G01-genomic.fna_23/03/2021T13:08:33_4", "GCF-000006785-protein140_S_GCF-900983035.1-11822-8-23-genomic.fna_23/03/2021T13:08:43_5", "GCF-000006785-protein140_S_GCF-900983635.1-19944-6-157-genomic.fna_23/03/2021T13:08:49_6", "GCF-000006785-protein140_S_GCF-900984895.1-19944-7-4-genomic.fna_23/03/2021T13:09:01_7", "GCF-000006785-protein140_S_GCF-900985025.1-19944-7-50-genomic.fna_23/03/2021T13:09:03_8", "GCF-000006785-protein140_S_GCF-900985075.1-19944-7-58-genomic.fna_23/03/2021T13:09:03_9", "GCF-000006785-protein140_S_GCF-900986015.1-8898-3-71-genomic.fna_23/03/2021T13:09:13_10", "GCF-000006785-protein140_S_GCF-900989445.1-8849-2-75-genomic.fna_23/03/2021T13:09:46_11"], "nr_alleles": 11, "size_range": "201-201"}, "locus_name": "GCF-000006785-protein140"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 11, "Gene": "GCF-000006785-protein140.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 11, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MKKKLSLFMIATAAVVSLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYKAVTSFF"}, {"name": "2", "sequence": "MKKKLSLFMIATAAVVGLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYKTVTSFF"}, {"name": "3", "sequence": "MKKKLSLFMIATAAVVGLSLATPENQTVSAYQITEGRDSSVCWTCCPLTCLKYNVEDWYSAVKNFF"}, {"name": "4", "sequence": "MKKKLSLFMIATAAVVGLSLATPENQTVSAYQKTDNRDSSVCWTCCPLTCLKYEVEDLYNAVTGWF"}, {"name": "5", "sequence": "MKKKLSFFMIATAAVVSLSLATPENQTVSAYQITEGRDSSVCWTCCPLTCLKYNVEDWYSAVKNFF"}, {"name": "6", "sequence": "MKKKLSLFMIATAAVVSLSLATPENQTVSAYQITEGRDSSVCWTCCPLTCLKYEVEDLYNTVTGWF"}, {"name": "7", "sequence": "MKKKLSLFMIATAAVVGLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYKAVTSFF"}, {"name": "8", "sequence": "MKKKLSLFMIATAAVVSLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYKTVTSFF"}, {"name": "9", "sequence": "MKKKLSLFMIATAAVVGLSLATPENQTVSAYQITEGRDSSVCWTCCPLTCLKYNVEDWYSAVKNFF"}, {"name": "10", "sequence": "MKKKLSLFMIATAAVVGLSLATPENQTVSAYQKTDNRDSSVCWTCCPLTCLKYEVEDLYNAVTGWF"}, {"name": "11", "sequence": "MKKKLSLFMIATAAVVGLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYKAVTSFF"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n7_7\n:0.00000):0.00000,\n8_8\n:0.00000):0.00000,\n11_11\n:0.00000):0.19822,(((\n3_3\n:0.00000,\n9_9\n:0.00000):0.08914,\n5_5\n:0.08914):0.05571,((\n4_4\n:0.00000,\n10_10\n:0.00000):0.13371,\n6_6\n:0.13371):0.01114):0.05337);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MKKKLSLFMIATAAVVSLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYK
+AVTSFF
+>2
+MKKKLSLFMIATAAVVGLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYK
+TVTSFF
+>3
+MKKKLSLFMIATAAVVGLSLATPENQTVSAYQITEGRDSSVCWTCCPLTCLKYNVEDWYS
+AVKNFF
+>4
+MKKKLSLFMIATAAVVGLSLATPENQTVSAYQKTDNRDSSVCWTCCPLTCLKYEVEDLYN
+AVTGWF
+>5
+MKKKLSFFMIATAAVVSLSLATPENQTVSAYQITEGRDSSVCWTCCPLTCLKYNVEDWYS
+AVKNFF
+>6
+MKKKLSLFMIATAAVVSLSLATPENQTVSAYQITEGRDSSVCWTCCPLTCLKYEVEDLYN
+TVTGWF
+>7
+MKKKLSLFMIATAAVVGLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYK
+AVTSFF
+>8
+MKKKLSLFMIATAAVVSLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYK
+TVTSFF
+>9
+MKKKLSLFMIATAAVVGLSLATPENQTVSAYQITEGRDSSVCWTCCPLTCLKYNVEDWYS
+AVKNFF
+>10
+MKKKLSLFMIATAAVVGLSLATPENQTVSAYQKTDNRDSSVCWTCCPLTCLKYEVEDLYN
+AVTGWF
+>11
+MKKKLSLFMIATAAVVGLSLATPENQTVSAYEVTATRDASVCWTCCPLTCLKYNVEDWYK
+AVTSFF
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

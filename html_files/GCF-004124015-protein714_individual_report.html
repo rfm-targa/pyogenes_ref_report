@@ -1,0 +1,58 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [207, 207, 213, 213, 213, 213, 216, 216, 222, 222, 222, 231], "alleles_median": 214, "alleles_mode": 213, "locus_ids": ["GCF-004124015-protein714_1", "GCF-004124015-protein714_S_GCF-900983045.1-11822-8-21-genomic.fna_23/03/2021T15:09:50_2", "GCF-004124015-protein714_S_GCF-900984815.1-19944-7-32-genomic.fna_23/03/2021T15:10:07_3", "GCF-004124015-protein714_S_GCF-900991815.1-7368-7-35-genomic.fna_23/03/2021T15:11:12_4", "GCF-004124015-protein714_S_SAMN07153867.contigs.fa_24/03/2021T13:11:15_5", "GCF-004124015-protein714_S_SAMN07249722.contigs.fa_24/03/2021T13:11:21_6", "GCF-004124015-protein714_S_SAMEA4550387.contigs.fa_25/03/2021T03:05:11_7", "GCF-004124015-protein714_S_SAMEA4551321.contigs.fa_25/03/2021T03:05:23_8", "GCF-004124015-protein714_S_SAMEA2157374.contigs.fa_25/03/2021T10:07:25_9", "GCF-004124015-protein714_S_SAMEA2225611.contigs.fa_25/03/2021T15:31:06_10", "GCF-004124015-protein714_S_SAMEA4551243.contigs.fa_26/03/2021T00:09:28_11", "GCF-004124015-protein714_S_SAMEA2225533.contigs.fa_26/03/2021T11:40:42_12"], "nr_alleles": 12, "size_range": "207-231"}, "locus_name": "GCF-004124015-protein714"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 12, "Gene": "GCF-004124015-protein714.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 12, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "-MELSYKRLFKKLIDLDMQHNELMEKANVSRSTFYKLKNGENVTTDVLLRICDALDCDISEIVECIKND-------"}, {"name": "2", "sequence": "MRVFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKMKNGQNVTTDVLLRICNALDCDIEEIMECTKQ--------"}, {"name": "3", "sequence": "MSKFSYKKLFKKLIDKDMKNTELMKKAKVSKSTFYKIKNGDNVTTDVLLRICNVLECDISEIVECV---NDSSEEI"}, {"name": "4", "sequence": "MRVFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKMKNGQNVTTDVLLRICNALDCDIEEIVECIRIDK------"}, {"name": "5", "sequence": "MSKLSYKKLFKKLIDIEMKNTELMDKAKVSKSTFYKIKNGENVTTDVLLRICDVLECDISEIVECVSIENGGKTGV"}, {"name": "6", "sequence": "MSKFSYKKLFKKLIDKDMKNTELMKRAKVSKSTFYKIKNGDNVTTDVLLRICNVLECDISEIVECV---NDSSEEI"}, {"name": "7", "sequence": "MSKFSYKKLFKKLIDKDMKNTELMNKAKVSKSTFYKIKNGDNVTTDVLLRICNVLECDISEIVECV---NDSSEEI"}, {"name": "8", "sequence": "MRVFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKMKNGQNVTTDVLLRICNALDCDIEEIVECIRIDK------"}, {"name": "9", "sequence": "MLKISYKKLFKKMIDLDLNNTELMEKTNISRSTFYKMKNGENITTDVLLRICEGLNCNLCEIMELVKDEND-----"}, {"name": "10", "sequence": "MRVFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKIKNGQNVTTDVLLRICNALDCDIEEIVECIRIDK------"}, {"name": "11", "sequence": "MLKISYKKLFKKMIDLDLNNTELMKKTNISRSTFYKMKNGENITTDVLLRICEGLNCNLYEIMELVKDEND-----"}, {"name": "12", "sequence": "MRAFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKMKNGQNVTTDVLLRICNALDCDIEEIVECIRIDK------"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((\n1_1\n:0.27738,(\n9_9\n:0.16485,\n11_11\n:0.16485):0.11253):0.07247,(\n2_2\n:0.04545,(((\n4_4\n:0.00000,\n8_8\n:0.00000):0.00000,\n10_10\n:0.00000):0.04184,\n12_12\n:0.04184):0.00360):0.30440):0.02108,(((\n3_3\n:0.00000,\n6_6\n:0.00000):0.08001,\n7_7\n:0.08001):0.15158,\n5_5\n:0.23160):0.13933);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+-MELSYKRLFKKLIDLDMQHNELMEKANVSRSTFYKLKNGENVTTDVLLRICDALDCDIS
+EIVECIKND-------
+>2
+MRVFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKMKNGQNVTTDVLLRICNALDCDIE
+EIMECTKQ--------
+>3
+MSKFSYKKLFKKLIDKDMKNTELMKKAKVSKSTFYKIKNGDNVTTDVLLRICNVLECDIS
+EIVECV---NDSSEEI
+>4
+MRVFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKMKNGQNVTTDVLLRICNALDCDIE
+EIVECIRIDK------
+>5
+MSKLSYKKLFKKLIDIEMKNTELMDKAKVSKSTFYKIKNGENVTTDVLLRICDVLECDIS
+EIVECVSIENGGKTGV
+>6
+MSKFSYKKLFKKLIDKDMKNTELMKRAKVSKSTFYKIKNGDNVTTDVLLRICNVLECDIS
+EIVECV---NDSSEEI
+>7
+MSKFSYKKLFKKLIDKDMKNTELMNKAKVSKSTFYKIKNGDNVTTDVLLRICNVLECDIS
+EIVECV---NDSSEEI
+>8
+MRVFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKMKNGQNVTTDVLLRICNALDCDIE
+EIVECIRIDK------
+>9
+MLKISYKKLFKKMIDLDLNNTELMEKTNISRSTFYKMKNGENITTDVLLRICEGLNCNLC
+EIMELVKDEND-----
+>10
+MRVFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKIKNGQNVTTDVLLRICNALDCDIE
+EIVECIRIDK------
+>11
+MLKISYKKLFKKMIDLDLNNTELMKKTNISRSTFYKMKNGENITTDVLLRICEGLNCNLY
+EIMELVKDEND-----
+>12
+MRAFSYKRLFKKLIDLDMTNNELMEKAKVSKSTFYKMKNGQNVTTDVLLRICNALDCDIE
+EIVECIRIDK------
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

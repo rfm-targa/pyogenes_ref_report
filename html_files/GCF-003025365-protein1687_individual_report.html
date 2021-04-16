@@ -1,0 +1,46 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [321, 321, 321, 321, 321, 342, 342, 354], "alleles_median": 321, "alleles_mode": 321, "locus_ids": ["GCF-003025365-protein1687_1", "GCF-003025365-protein1687_S_GCF-000013505.1-ASM1350v1.fasta_16/11/2020T12:20:08_2", "GCF-003025365-protein1687_S_GCF-000499165.1-SpyogGA16797v1.0-genomic.fna_23/03/2021T16:42:27_4", "GCF-003025365-protein1687_CS3_SAMEA3713304.contigs.fa_24/03/2021T14:36:46_5", "GCF-003025365-protein1687_S_SAMEA4550412.contigs.fa_25/03/2021T04:32:42_6", "GCF-003025365-protein1687_S_SAMEA4549893.contigs.fa_25/03/2021T11:36:25_7", "GCF-003025365-protein1687_S_SAMEA4549934.contigs.fa_25/03/2021T11:36:25_8", "GCF-003025365-protein1687_S_SAMEA4551369.contigs.fa_25/03/2021T11:36:38_9"], "nr_alleles": 8, "size_range": "321-354"}, "locus_name": "GCF-003025365-protein1687"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 8, "Gene": "GCF-003025365-protein1687.fasta", "Missing Allele IDs": [3], "Number of alleles": 8, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "----MKKTLLLSAAALMVASTVALSTNSVSASSYLNNPYYNTSRFLRQNGTQVLREARYASELKIRNLLDQYGIVGEEYKGYFNCYYRQARQALSLGQVDDVINSLERNLQERQDND"}, {"name": "2", "sequence": "----MKKTLLLSAAALMVASTAALSTNSVSAYSY-DRP------LLRQNGTQVLREAKNAAELQIRNLLNQYHVDGEEYSGYFNSYYSQARQARNVGQVDAVINSLEENLQNRQNND"}, {"name": "4", "sequence": "----MKKTLLLSAAALMVASTAALSTNSVSAYSY-DRP------LLRQNGTQVLREAKNAAELQIRNLLNQYHVDGEEYSGYFNSYYRQARQARNVGQVDAVINSLEENLQNRQNND"}, {"name": "5", "sequence": "MLFFMKKTLLLSAAALMVASTVALSTNSVSASSYLNNPYYNTSRFLRQNGTQVLREARYASELKIRNLLDQYGIVGEEYKGYFNCYYRQARQALSLGQVDDVINSLERNLQERQDND"}, {"name": "6", "sequence": "----MKKTLLLSATALMVASTAALSTNSVSAYSY-DRP------LLRQNGTQVLREAKNAAELQIRNLLNQYHVDGEEYSGYFNSYYRQARQARNVGQVDAVINSLEENLQNRQNND"}, {"name": "7", "sequence": "----MKKTLLLSAAALMVASTAALSTNSVSAYSY-DRP------LLRQNGTQVLREAKNAAELQIRNLLNQYHVDGEEYSGYFNSYYRQARQARNVGQVDAVINSLEENLQNRQNND"}, {"name": "8", "sequence": "----MKKTLFLSAAALMVASTAALSTNSVSAYNY-ARP------LLRQNGTQVLREAKYAAELQIRNLLNQYHVDGEEYNDYFNSYYRQARQSGSVEQVNSVINNLEKNLQTRQDDN"}, {"name": "9", "sequence": "----MKKTLLLSAAALMVASTVALSTNSVSASSYLNNPYYNTSRFLRQNGTQVLREARYASELKIRNLLDQYGIVGEEYKGYFNCYYRQARQALSLGQVDDVINSVERNLQERQDND"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((\n1_1\n:0.00000,\n4_5\n:0.00000):0.00000,\n8_9\n:0.00000):0.60074,((\n2_2\n:0.05403,((\n3_4\n:0.00000,\n5_6\n:0.00000):0.00000,\n6_7\n:0.00000):0.05403):0.38046,\n7_8\n:0.43449):0.16626);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+----MKKTLLLSAAALMVASTVALSTNSVSASSYLNNPYYNTSRFLRQNGTQVLREARYA
+SELKIRNLLDQYGIVGEEYKGYFNCYYRQARQALSLGQVDDVINSLERNLQERQDND
+>2
+----MKKTLLLSAAALMVASTAALSTNSVSAYSY-DRP------LLRQNGTQVLREAKNA
+AELQIRNLLNQYHVDGEEYSGYFNSYYSQARQARNVGQVDAVINSLEENLQNRQNND
+>4
+----MKKTLLLSAAALMVASTAALSTNSVSAYSY-DRP------LLRQNGTQVLREAKNA
+AELQIRNLLNQYHVDGEEYSGYFNSYYRQARQARNVGQVDAVINSLEENLQNRQNND
+>5
+MLFFMKKTLLLSAAALMVASTVALSTNSVSASSYLNNPYYNTSRFLRQNGTQVLREARYA
+SELKIRNLLDQYGIVGEEYKGYFNCYYRQARQALSLGQVDDVINSLERNLQERQDND
+>6
+----MKKTLLLSATALMVASTAALSTNSVSAYSY-DRP------LLRQNGTQVLREAKNA
+AELQIRNLLNQYHVDGEEYSGYFNSYYRQARQARNVGQVDAVINSLEENLQNRQNND
+>7
+----MKKTLLLSAAALMVASTAALSTNSVSAYSY-DRP------LLRQNGTQVLREAKNA
+AELQIRNLLNQYHVDGEEYSGYFNSYYRQARQARNVGQVDAVINSLEENLQNRQNND
+>8
+----MKKTLFLSAAALMVASTAALSTNSVSAYNY-ARP------LLRQNGTQVLREAKYA
+AELQIRNLLNQYHVDGEEYNDYFNSYYRQARQSGSVEQVNSVINNLEKNLQTRQDDN
+>9
+----MKKTLLLSAAALMVASTVALSTNSVSASSYLNNPYYNTSRFLRQNGTQVLREARYA
+SELKIRNLLDQYGIVGEEYKGYFNCYYRQARQALSLGQVDDVINSVERNLQERQDND
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

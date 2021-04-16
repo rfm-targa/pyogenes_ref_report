@@ -1,0 +1,52 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [219, 219, 219, 219, 222, 222, 222, 222, 222, 222], "alleles_median": 222, "alleles_mode": 222, "locus_ids": ["GCF-000007285-protein285_1", "GCF-000007285-protein285_S_GCF-000421785.1-ASM42178v1-genomic.fna_23/03/2021T13:48:12_2", "GCF-000007285-protein285_S_GCF-000758085.1-ASM75808v1-genomic.fna_23/03/2021T13:48:27_3", "GCF-000007285-protein285_S_GCF-900459875.1-41885-F01-genomic.fna_23/03/2021T13:49:03_4", "GCF-000007285-protein285_S_GCF-900983045.1-11822-8-21-genomic.fna_23/03/2021T13:49:11_5", "GCF-000007285-protein285_S_GCF-900986445.1-9262-5-31-genomic.fna_23/03/2021T13:49:35_6", "GCF-000007285-protein285_S_GCF-900988465.1-8113-7-41-genomic.fna_23/03/2021T13:49:49_7", "GCF-000007285-protein285_S_SAMN07153804.contigs.fa_24/03/2021T16:59:12_8", "GCF-000007285-protein285_S_SAMEA4550720.contigs.fa_25/03/2021T08:58:30_9", "GCF-000007285-protein285_S_SH4445A.contigs.length-GCcontent-kmerCov.mappingCov.polished.fasta_03/04/2021T17:10:16_10"], "nr_alleles": 10, "size_range": "219-222"}, "locus_name": "GCF-000007285-protein285"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 10, "Gene": "GCF-000007285-protein285.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 10, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MNNLEKIREEKGISDVQLSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEVYEQALNSIGDYKK"}, {"name": "2", "sequence": "MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEVYEQALNSIGDYKK"}, {"name": "3", "sequence": "MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEVYEQALNSIGDYKK"}, {"name": "4", "sequence": "MNNLEKIREEKGISDVELSS-VQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEVYEQALNSIGDYKK"}, {"name": "5", "sequence": "MNNLEKIREEKGISDVELSS-VQKILEEKYIKGLRFEQVNALTITCELGYIHFDKRLSEVYEQALNSIGDYKK"}, {"name": "6", "sequence": "MNNLEKIREEKGISDVELSS-VQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEVYEQALNSIGDYKK"}, {"name": "7", "sequence": "MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEVYEQALNSIGDYKK"}, {"name": "8", "sequence": "MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFEKRLSEVYEQALNSIGDYKK"}, {"name": "9", "sequence": "MNNLEKIREEKGISDVELSS-VQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEVYEQALNSIGDYKK"}, {"name": "10", "sequence": "MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEVYEQALNSIGDYKK"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n3_3\n:0.00000):0.00000,\n7_7\n:0.00000):0.00000,\n8_8\n:0.00000):0.00000,\n10_10\n:0.00000):0.05421,((\n4_4\n:0.00000,\n6_6\n:0.00000):0.00000,\n9_9\n:0.00000):0.05421):0.02971,\n5_5\n:0.08392);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MNNLEKIREEKGISDVQLSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+>2
+MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+>3
+MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+>4
+MNNLEKIREEKGISDVELSS-VQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+>5
+MNNLEKIREEKGISDVELSS-VQKILEEKYIKGLRFEQVNALTITCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+>6
+MNNLEKIREEKGISDVELSS-VQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+>7
+MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+>8
+MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFEKRLSEV
+YEQALNSIGDYKK
+>9
+MNNLEKIREEKGISDVELSS-VQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+>10
+MNNLEKIREEKGISDVELSSVVQKILEEKYIKGLRFEQVNALTIMCELGYIHFDKRLSEV
+YEQALNSIGDYKK
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

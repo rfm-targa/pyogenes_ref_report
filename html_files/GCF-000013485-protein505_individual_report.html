@@ -1,0 +1,52 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [210, 213, 213, 219, 219, 219, 219, 219, 228, 228], "alleles_median": 219, "alleles_mode": 219, "locus_ids": ["GCF-000013485-protein505_1", "GCF-000013485-protein505_S_GCF-000499265.1-SpyogGA19702v1.0.fasta_16/11/2020T12:10:34_2", "GCF-000013485-protein505_S_GCF-000628185.1-Stre-pyog-ABC020047977-V1.fasta_16/11/2020T12:10:35_3", "GCF-000013485-protein505_S_GCF-001638325.1-ASM163832v1.fasta_16/11/2020T12:10:49_4", "GCF-000013485-protein505_S_GCF-001642215.1-ASM164221v1.fasta_16/11/2020T12:10:51_5", "GCF-000013485-protein505_S_GCF-002250265.1-ASM225026v1.fasta_16/11/2020T12:10:52_6", "GCF-000013485-protein505_S_GCF-005160925.1-ASM516092v1.fasta_16/11/2020T12:10:58_7", "GCF-000013485-protein505_S_GCF-013315485.1-ASM1331548v1.fasta_16/11/2020T12:11:12_8", "GCF-000013485-protein505_S_GCF-900475525.1-44738-D02.fasta_16/11/2020T12:11:19_9", "GCF-000013485-protein505_S_GCF-900984845.1-19944-7-35.fasta_16/11/2020T12:11:36_10"], "nr_alleles": 10, "size_range": "210-228"}, "locus_name": "GCF-000013485-protein505"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 10, "Gene": "GCF-000013485-protein505.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 10, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MDQYLINDNEFLRDENTRLNKEFSELNHAV-AKANLLDVIIEDGYILQSTLDKCTAKLDEIDQKEL-KTWKN---"}, {"name": "2", "sequence": "MEQQLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASGFILQSTIDKCIAELDEIDQMELRKVWNK---"}, {"name": "3", "sequence": "MKQQLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASDFILKSTLDKCIAELDEIDQIALLKAWNKGEL"}, {"name": "4", "sequence": "MKQQLINDNEFLQDENCRLNNELAEHYFVVTAKANLLDVIIASDFILKSTLDKCIAELDEIDQMELRKVWNK---"}, {"name": "5", "sequence": "MEQHLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASGFILQSTIDKCIAELDEIDQMELRKVWNK---"}, {"name": "6", "sequence": "MDQYLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASGFILQSTIDKCVAELDEIDQMELRKVWNK---"}, {"name": "7", "sequence": "MEQHLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASGFILQSTIDKCIAELDEIDQMELRKVWNK---"}, {"name": "8", "sequence": "MEQHLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASDFILKSTLDKCIAELDEIDQIALLKAWNKGEL"}, {"name": "9", "sequence": "MEQQLINDNEFLRDENTRLNKEFSELNHAV-AKANLLDVIIEDGYILQSMLDKCIAKLDEIDQKEL-KTWKN---"}, {"name": "10", "sequence": "MEQQLINDNEFLRDENTRLNKEFSELNHAV-AKANLLDVIIEDGYILQSTLDKCIAKLDEIDRKEL--TKRD---"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((\n1_1\n:0.21152,(\n9_9\n:0.19857,\n10_10\n:0.19857):0.01294):0.37230,(((\n2_2\n:0.05413,\n6_6\n:0.05413):0.00000,(\n5_5\n:0.00000,\n7_7\n:0.00000):0.05413):0.19708,((\n3_3\n:0.05183,\n8_8\n:0.05183):0.19544,\n4_4\n:0.24727):0.00394):0.33260);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MDQYLINDNEFLRDENTRLNKEFSELNHAV-AKANLLDVIIEDGYILQSTLDKCTAKLDE
+IDQKEL-KTWKN---
+>2
+MEQQLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASGFILQSTIDKCIAELDE
+IDQMELRKVWNK---
+>3
+MKQQLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASDFILKSTLDKCIAELDE
+IDQIALLKAWNKGEL
+>4
+MKQQLINDNEFLQDENCRLNNELAEHYFVVTAKANLLDVIIASDFILKSTLDKCIAELDE
+IDQMELRKVWNK---
+>5
+MEQHLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASGFILQSTIDKCIAELDE
+IDQMELRKVWNK---
+>6
+MDQYLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASGFILQSTIDKCVAELDE
+IDQMELRKVWNK---
+>7
+MEQHLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASGFILQSTIDKCIAELDE
+IDQMELRKVWNK---
+>8
+MEQHLINDNEFLRDENRRLNNELAEHYFVVTAKANLLDVIIASDFILKSTLDKCIAELDE
+IDQIALLKAWNKGEL
+>9
+MEQQLINDNEFLRDENTRLNKEFSELNHAV-AKANLLDVIIEDGYILQSMLDKCIAKLDE
+IDQKEL-KTWKN---
+>10
+MEQQLINDNEFLRDENTRLNKEFSELNHAV-AKANLLDVIIEDGYILQSTLDKCIAKLDE
+IDRKEL--TKRD---
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

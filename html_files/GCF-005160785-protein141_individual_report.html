@@ -1,0 +1,43 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [288, 288, 288, 288, 288, 288, 300], "alleles_median": 288, "alleles_mode": 288, "locus_ids": ["GCF-005160785-protein141_1", "GCF-005160785-protein141_S_GCF-900982805.1-11791-7-84-genomic.fna_23/03/2021T15:29:14_2", "GCF-005160785-protein141_S_GCF-900983695.1-19944-6-162-genomic.fna_23/03/2021T15:29:21_3", "GCF-005160785-protein141_S_GCF-900990745.1-8898-2-60-genomic.fna_23/03/2021T15:30:20_4", "GCF-005160785-protein141_S_GCF-900992595.1-7622-7-74-genomic.fna_23/03/2021T15:30:39_5", "GCF-005160785-protein141_S_SAMEA103920251.contigs.fa_24/03/2021T13:27:43_6", "GCF-005160785-protein141_S_SH13198A.contigs.length-GCcontent-kmerCov.mappingCov.polished.fasta_03/04/2021T17:42:15_7"], "nr_alleles": 7, "size_range": "288-300"}, "locus_name": "GCF-005160785-protein141"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 7, "Gene": "GCF-005160785-protein141.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 7, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTPVDPTTTNCDTSLNCLWETIKGWWTQVKSWFSSFTA----"}, {"name": "2", "sequence": "MKNKLFLVALATVTVLGLSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTPVDPTTTNCDTSLNCLWETIKGWWTQVKNWFSSFTA----"}, {"name": "3", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTPVDPTTTNCDTSLNCLWEIIKGWWTQVKNWFSSFTA----"}, {"name": "4", "sequence": "MKNKLFLVALATVTVLGLSLATPHHQTVHATNVSPAGTCIHPAGNSSISVCWEDTTKDTPVDPTTTNCDTSLNCLWETIKGWWTQVKNWFSSFTA----"}, {"name": "5", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTPVDPTTTNCDTSLNCLWETIKGWWTQVKSWFSSFTASFTA"}, {"name": "6", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHATSVSHAGTCTHPAGNSSISVCWEDTTKDTPVDPTTTNCDTSLNCLWEIIKGWWTQVKSWFSSFTA----"}, {"name": "7", "sequence": "MKNKLFLVALATVTVLGPSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTPVDPTTTNCDTSLNCLWEIIKGWWTQVKNWFSSLTA----"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((\n1_1\n:0.00000,\n5_5\n:0.00000):0.12218,(\n3_3\n:0.03029,\n7_7\n:0.03029):0.09189):0.00209,(\n2_2\n:0.06057,\n4_4\n:0.06057):0.06370):0.03342,\n6_6\n:0.15769);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MKNKLFLVALATVTVLGPSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTP
+VDPTTTNCDTSLNCLWETIKGWWTQVKSWFSSFTA----
+>2
+MKNKLFLVALATVTVLGLSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTP
+VDPTTTNCDTSLNCLWETIKGWWTQVKNWFSSFTA----
+>3
+MKNKLFLVALATVTVLGPSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTP
+VDPTTTNCDTSLNCLWEIIKGWWTQVKNWFSSFTA----
+>4
+MKNKLFLVALATVTVLGLSLATPHHQTVHATNVSPAGTCIHPAGNSSISVCWEDTTKDTP
+VDPTTTNCDTSLNCLWETIKGWWTQVKNWFSSFTA----
+>5
+MKNKLFLVALATVTVLGPSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTP
+VDPTTTNCDTSLNCLWETIKGWWTQVKSWFSSFTASFTA
+>6
+MKNKLFLVALATVTVLGPSLATPHHQTVHATSVSHAGTCTHPAGNSSISVCWEDTTKDTP
+VDPTTTNCDTSLNCLWEIIKGWWTQVKSWFSSFTA----
+>7
+MKNKLFLVALATVTVLGPSLATPHHQTVHATNVSPAGTCTHPAGNSSISVCWEDTTKDTP
+VDPTTTNCDTSLNCLWEIIKGWWTQVKNWFSSLTA----
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

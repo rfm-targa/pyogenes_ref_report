@@ -1,0 +1,49 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [249, 249, 249, 249, 249, 249, 249, 249, 249], "alleles_median": 249, "alleles_mode": 249, "locus_ids": ["GCF-000772245-protein707_1", "GCF-000772245-protein707_S_GCF-004153965.1-ASM415396v1-genomic.fna_23/03/2021T14:46:29_2", "GCF-000772245-protein707_S_GCF-900459855.1-43024-A01-genomic.fna_23/03/2021T14:46:57_3", "GCF-000772245-protein707_S_GCF-900989875.1-8898-1-42-genomic.fna_23/03/2021T14:48:00_4", "GCF-000772245-protein707_S_GCF-900990715.1-8898-2-56-genomic.fna_23/03/2021T14:48:06_5", "GCF-000772245-protein707_S_SAMEA3713001.contigs.fa_24/03/2021T17:51:52_6", "GCF-000772245-protein707_S_SAMN09849780.contigs.fa_25/03/2021T23:50:50_7", "GCF-000772245-protein707_S_SAMEA4550426.contigs.fa_26/03/2021T11:21:54_8", "GCF-000772245-protein707_S_SAMEA3918886.contigs.fa_26/03/2021T19:09:02_9"], "nr_alleles": 9, "size_range": "249-249"}, "locus_name": "GCF-000772245-protein707"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 9, "Gene": "GCF-000772245-protein707.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 9, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPNLVDIDGMMAAGVQGLLPESDID"}, {"name": "2", "sequence": "MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPNLVDIDGMMAAGVQGLLPESDID"}, {"name": "3", "sequence": "MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRIEMPADKKPKATITFIPNLVDIDGMMAAGVQGLLPESDID"}, {"name": "4", "sequence": "MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPNLIDIDGMMAAGVQGLLPESDID"}, {"name": "5", "sequence": "MNSLKLSIKLKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPNLVDIDGMMAAGVQGLLPESDID"}, {"name": "6", "sequence": "MNSLKLSIKPKLESNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPNLVDIDGMMAAGVQGLLPESDID"}, {"name": "7", "sequence": "MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPNFVDIDGMMAAGVQGLLPESDID"}, {"name": "8", "sequence": "MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFILNLVDIDGMMAAGVQGLLPESDID"}, {"name": "9", "sequence": "MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRIEMPADKKPKATITFIPNLVDIDGMMAAGVQGLLPESDID"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n3_3\n:0.00000):0.00000,\n4_4\n:0.00000):0.00000,\n6_6\n:0.00000):0.00000,\n9_9\n:0.00000):0.07072,\n5_5\n:0.07072):0.00354,\n7_7\n:0.07425):0.00100,\n8_8\n:0.07526);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPN
+LVDIDGMMAAGVQGLLPESDID
+>2
+MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPN
+LVDIDGMMAAGVQGLLPESDID
+>3
+MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRIEMPADKKPKATITFIPN
+LVDIDGMMAAGVQGLLPESDID
+>4
+MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPN
+LIDIDGMMAAGVQGLLPESDID
+>5
+MNSLKLSIKLKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPN
+LVDIDGMMAAGVQGLLPESDID
+>6
+MNSLKLSIKPKLESNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPN
+LVDIDGMMAAGVQGLLPESDID
+>7
+MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFIPN
+FVDIDGMMAAGVQGLLPESDID
+>8
+MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRLEMPADKKPKATITFILN
+LVDIDGMMAAGVQGLLPESDID
+>9
+MNSLKLSIKPKLEPNDGQCLLSSGYSVKINDWELGKGVVDFRIEMPADKKPKATITFIPN
+LVDIDGMMAAGVQGLLPESDID
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

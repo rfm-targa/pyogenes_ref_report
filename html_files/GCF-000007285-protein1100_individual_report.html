@@ -1,0 +1,52 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [210, 210, 210, 210, 210, 210, 210, 210, 210, 210], "alleles_median": 210, "alleles_mode": 210, "locus_ids": ["GCF-000007285-protein1100_1", "GCF-000007285-protein1100_S_GCF-001369175.1-M18GASBO5-genomic.fna_23/03/2021T13:43:42_2", "GCF-000007285-protein1100_S_GCF-003171575.1-ASM317157v1-genomic.fna_23/03/2021T13:43:48_3", "GCF-000007285-protein1100_S_GCF-003171595.1-ASM317159v1-genomic.fna_23/03/2021T13:43:48_4", "GCF-000007285-protein1100_S_GCF-900982815.1-11791-7-80-genomic.fna_23/03/2021T13:44:17_5", "GCF-000007285-protein1100_S_GCF-900984845.1-19944-7-35-genomic.fna_23/03/2021T13:44:32_6", "GCF-000007285-protein1100_S_GCF-900991185.1-7368-6-63-genomic.fna_23/03/2021T13:45:17_7", "GCF-000007285-protein1100_S_GCF-900991205.1-7368-6-62-genomic.fna_23/03/2021T13:45:17_8", "GCF-000007285-protein1100_S_SAMN08692151.contigs.fa_25/03/2021T08:55:06_9", "GCF-000007285-protein1100_S_SAMN08690630.contigs.fa_25/03/2021T14:18:30_10"], "nr_alleles": 10, "size_range": "210-210"}, "locus_name": "GCF-000007285-protein1100"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 10, "Gene": "GCF-000007285-protein1100.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 10, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MGPNYFHVQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYASFPIVLEYH"}, {"name": "2", "sequence": "MGPNYFHIQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYASFPIVLEYH"}, {"name": "3", "sequence": "MNPNYFHVQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIHNEIVDVYASFPIVLEYH"}, {"name": "4", "sequence": "MNPNYFHVQFKLGEKVSYNTPSAEGREVISIKGAEVTKMIFADGNELLSVVHNEIVDVYASFPIVLEYH"}, {"name": "5", "sequence": "MGPNYFHVQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYASFPIVLEYH"}, {"name": "6", "sequence": "MGPNYFHVQFKLGEKVSYNTPSAEVREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYASFPIVLEYH"}, {"name": "7", "sequence": "MNPNYFHVQFKLGEKVSYNTPSAEGREVISIKGAEVTKMIFADGNELLSVIHNEIVDVYASFPIVLEYH"}, {"name": "8", "sequence": "MNPNYFHVQFKLGEKVSYNTPSAEGREVISIKGAEITKMIFADGNELLSVVHNEIVDVYASFPIVLEYH"}, {"name": "9", "sequence": "MNPNYFHVQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIYNETVDVYASFPIVLEYH"}, {"name": "10", "sequence": "MGPNYFHVQFKLGEKVSYNTPLAEGREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYASFPIVLEYH"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n5_5\n:0.00000):0.08498,\n6_6\n:0.08498):0.00212,\n10_10\n:0.08711):0.03449,(((\n3_3\n:0.00000,\n4_4\n:0.00000):0.00000,\n7_7\n:0.00000):0.00000,\n8_8\n:0.00000):0.12160):0.00029,\n9_9\n:0.12189);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MGPNYFHVQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYA
+SFPIVLEYH
+>2
+MGPNYFHIQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYA
+SFPIVLEYH
+>3
+MNPNYFHVQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIHNEIVDVYA
+SFPIVLEYH
+>4
+MNPNYFHVQFKLGEKVSYNTPSAEGREVISIKGAEVTKMIFADGNELLSVVHNEIVDVYA
+SFPIVLEYH
+>5
+MGPNYFHVQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYA
+SFPIVLEYH
+>6
+MGPNYFHVQFKLGEKVSYNTPSAEVREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYA
+SFPIVLEYH
+>7
+MNPNYFHVQFKLGEKVSYNTPSAEGREVISIKGAEVTKMIFADGNELLSVIHNEIVDVYA
+SFPIVLEYH
+>8
+MNPNYFHVQFKLGEKVSYNTPSAEGREVISIKGAEITKMIFADGNELLSVVHNEIVDVYA
+SFPIVLEYH
+>9
+MNPNYFHVQFKLGEKVSYNTPSAEGREVIPIKGAEVTKMIFADGNELLSVIYNETVDVYA
+SFPIVLEYH
+>10
+MGPNYFHVQFKLGEKVSYNTPLAEGREVIPIKGAEVTKMIFADGNELLSVIHNETVDVYA
+SFPIVLEYH
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

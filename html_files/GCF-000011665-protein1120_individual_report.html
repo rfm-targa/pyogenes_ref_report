@@ -1,0 +1,43 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [273, 282, 282, 282, 282, 282, 282], "alleles_median": 282, "alleles_mode": 282, "locus_ids": ["GCF-000011665-protein1120_1", "GCF-000011665-protein1120_S_GCF-900984745.1-19944-7-27-genomic.fna_23/03/2021T14:07:59_2", "GCF-000011665-protein1120_S_SAMN09849882.contigs.fa_24/03/2021T12:18:23_3", "GCF-000011665-protein1120_S_SAMEA4549971.contigs.fa_25/03/2021T09:13:55_4", "GCF-000011665-protein1120_S_SAMEA3931019.contigs.fa_25/03/2021T14:37:18_5", "GCF-000011665-protein1120_S_SAMN07154251.contigs.fa_25/03/2021T23:15:40_6", "GCF-000011665-protein1120_S_SAMEA4549723.contigs.fa_26/03/2021T18:37:59_7"], "nr_alleles": 7, "size_range": "273-282"}, "locus_name": "GCF-000011665-protein1120"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 7, "Gene": "GCF-000011665-protein1120.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 7, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MREKYVEQALVKSVKARGGICPKWVSPSFSGVPDRLVFLPKGKFGLVEVKAPDQKPRKLQVSRHKLFERLGFKVYVIDRIEMIGEVLDEIDIT"}, {"name": "2", "sequence": "MREKYVEQALVKSVKARGGICPKWVSPSFSGVPDRLIFLPKGKFGLVEVKAPDQKPRELQVSRHKLFERLGFKVYVIDRIEMIGEVLDEIEIT"}, {"name": "3", "sequence": "MREKVVEQKLVSEVKKRGGICPKWVSPSFGGVPDRLVFLPKGKFGMVEVKAPGGKPRLLQVTRHRLFERLGFKVHVLDSVEKIGEVLDEIEFT"}, {"name": "4", "sequence": "MREKYVEQALVKYVKARGGICPKWVSPSFSGVPDRLVFLPKGKFGLVEVKAPDQKPRKLQVSRHKLFERLGFKVYVIDRIEMIGEVLDEIDIT"}, {"name": "5", "sequence": "MRERFVERKLVSEVKKRGGICPKWVSPSFSGVPDRLVFLPKGKFGLVEVKAPDQKPRELQVSRHKLFERLGFTVYVIDRIEMIGEVLDEIDIT"}, {"name": "6", "sequence": "MREKFIEKKLVSEVKKHGGLCPKFVSPGFDGMPDRIILMPKGRFAFAELKVEGKKPRPLQLSRHRLLTNLGFKVYVIDNVTQIGGVLDDI---"}, {"name": "7", "sequence": "MREKYVEQALVKCVKARGGICPKWVSPSFSGVPDRLVFLPKGKFGLVEVKAPDQKPRKLQVSRHKLFERLGFKVYVIDRIEMIGEVLDEIDIT"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((((\n1_1\n:0.06194,\n2_2\n:0.06194):0.00310,(\n4_4\n:0.06194,\n7_7\n:0.06194):0.00310):0.14747,\n5_5\n:0.21250):0.16223,\n3_3\n:0.37473):0.21347,\n6_6\n:0.58820);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MREKYVEQALVKSVKARGGICPKWVSPSFSGVPDRLVFLPKGKFGLVEVKAPDQKPRKLQ
+VSRHKLFERLGFKVYVIDRIEMIGEVLDEIDIT
+>2
+MREKYVEQALVKSVKARGGICPKWVSPSFSGVPDRLIFLPKGKFGLVEVKAPDQKPRELQ
+VSRHKLFERLGFKVYVIDRIEMIGEVLDEIEIT
+>3
+MREKVVEQKLVSEVKKRGGICPKWVSPSFGGVPDRLVFLPKGKFGMVEVKAPGGKPRLLQ
+VTRHRLFERLGFKVHVLDSVEKIGEVLDEIEFT
+>4
+MREKYVEQALVKYVKARGGICPKWVSPSFSGVPDRLVFLPKGKFGLVEVKAPDQKPRKLQ
+VSRHKLFERLGFKVYVIDRIEMIGEVLDEIDIT
+>5
+MRERFVERKLVSEVKKRGGICPKWVSPSFSGVPDRLVFLPKGKFGLVEVKAPDQKPRELQ
+VSRHKLFERLGFTVYVIDRIEMIGEVLDEIDIT
+>6
+MREKFIEKKLVSEVKKHGGLCPKFVSPGFDGMPDRIILMPKGRFAFAELKVEGKKPRPLQ
+LSRHRLLTNLGFKVYVIDNVTQIGGVLDDI---
+>7
+MREKYVEQALVKCVKARGGICPKWVSPSFSGVPDRLVFLPKGKFGLVEVKAPDQKPRKLQ
+VSRHKLFERLGFKVYVIDRIEMIGEVLDEIDIT
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            
